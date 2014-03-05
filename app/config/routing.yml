@@ -1,0 +1,5 @@
+gema_admin:
+    resource: "@GemaAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

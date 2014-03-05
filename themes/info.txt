@@ -1,0 +1,6 @@
+/**
+ **     En este directorio van los themes tal cual vienen sin modificaciones.
+ **
+ */
+
+1)BaseAdmin 2.0

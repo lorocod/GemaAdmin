@@ -1,0 +1,11 @@
+    php app/console assets:install web --symlink
+
+
+
+buscar y remplazar con reg exp
+ej:
+busco: <a href="./([\w/]+).png" class="ui-lightbox">
+remplazo: <a href="{{ asset('bundles/gemaadmin/$1.png') }}" class="ui-lightbox">
+
+busco: <img src="./([\w/]+).png" alt="" />
+remplazo: <img src="{{ asset('bundles/gemaadmin/$1.png') }}" alt="" />
