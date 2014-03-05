@@ -1,0 +1,3 @@
+Antes de probar, cargar los assets
+
+php app/console assets:install web --symlink
