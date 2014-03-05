@@ -2,6 +2,17 @@
 
 {% block title %}GemaAdminBundle:Componentes:jqueryUI{% endblock %}
 
+{% block stylesheets %}
+
+    <style>
+    #eq span {
+		height: 175px;
+		float: left;
+		margin: 15px;
+	}
+    </style>
+{% endblock %}
+
 {% block body %}
     
 <div class="main">
@@ -169,7 +180,9 @@
 {% block javascripts %}
 
 <script src="{{ asset("bundles/gemaadmin/js/plugins/validate/jquery.validate.js") }}"></script>
+
+{% endblock %}
+
+{% block app_extra %}
 <script src="{{ asset("bundles/gemaadmin/js/demo/sliders.js") }}"></script>
-
-
 {% endblock %}
