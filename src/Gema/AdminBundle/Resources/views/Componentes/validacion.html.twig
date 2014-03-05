@@ -2,6 +2,12 @@
 
 {% block title %}GemaAdminBundle:Componentes:validacion{% endblock %}
 
+{% block stylesheets %}
+
+    <link href="{{ asset('bundles/gemaadmin/css/pages/plans.css')}}" rel="stylesheet" />
+
+{% endblock %}
+    
 {% block body %}
 <div class="main">
 
@@ -114,3 +120,12 @@
     
 </div> <!-- /main -->
 {% endblock %}
+
+{% block javascripts %}
+
+<script src="{{ asset("bundles/gemaadmin/js/plugins/validate/jquery.validate.js") }}"></script>
+<script src="{{ asset("bundles/gemaadmin/js/demo/validation.js") }}"></script>
+
+{% endblock %}
+
+     
